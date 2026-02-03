@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Praktik Version Control - GitHub & Sourcetree</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card-slot {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-slot:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-blue-700 text-white py-10 shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-2">Proyek Kolaborasi Tim</h1>
+            <p class="text-lg opacity-90">Praktik Git: Clone, Branch, Commit, Push, dan Pull Request</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        
+        <!-- Instruksi Singkat -->
+        <section class="mb-12 bg-white p-6 rounded-lg border-l-4 border-yellow-500 shadow-sm">
+            <h2 class="text-xl font-bold mb-3 text-yellow-700">Petunjuk Ujian:</h2>
+            <ol class="list-decimal ml-6 space-y-2 text-gray-700">
+                <li>Lakukan <strong>Clone</strong> repository ini ke komputer lokal menggunakan Sourcetree.</li>
+                <li>Pilih satu <strong>Slot Kotak</strong> sesuai nomor absen/kelompok (1-6).</li>
+                <li>Ubah konten di dalam file <code>index.html</code> pada bagian komentar yang sesuai.</li>
+                <li>Lakukan <strong>Commit</strong> dengan pesan yang jelas (Contoh: "Update Slot 1 - Nama Siswa").</li>
+                <li><strong>Push</strong> ke GitHub dan lakukan <strong>Pull Request</strong> ke branch utama.</li>
+            </ol>
+        </section>
+
+        <!-- Grid 6 Kotak -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- SLOT 1 -->
+            <div id="slot-1" class="card-slot bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format" alt="Placeholder 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Slot 01</span>
+                    <h3 class="text-xl font-semibold mt-2 mb-2">Nama Siswa 1</h3>
+                    <p class="text-gray-600 text-sm">Ubah teks ini dengan deskripsi singkat tentang dirimu atau kutipan favoritmu.</p>
+                </div>
+            </div>
+
+            <!-- SLOT 2 -->
+            <div id="slot-2" class="card-slot bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format" alt="Placeholder 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Slot 02</span>
+                    <h3 class="text-xl font-semibold mt-2 mb-2">Nama Siswa 2</h3>
+                    <p class="text-gray-600 text-sm">Ubah teks ini dengan deskripsi singkat tentang dirimu atau kutipan favoritmu.</p>
+                </div>
+            </div>
+
+            <!-- SLOT 3 -->
+            <div id="slot-3" class="card-slot bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format" alt="Placeholder 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Slot 03</span>
+                    <h3 class="text-xl font-semibold mt-2 mb-2">Nama Siswa 3</h3>
+                    <p class="text-gray-600 text-sm">Ubah teks ini dengan deskripsi singkat tentang dirimu atau kutipan favoritmu.</p>
+                </div>
+            </div>
+
+            <!-- SLOT 4 -->
+            <div id="slot-4" class="card-slot bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format" alt="Placeholder 4" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Slot 04</span>
+                    <h3 class="text-xl font-semibold mt-2 mb-2">Nama Siswa 4</h3>
+                    <p class="text-gray-600 text-sm">Ubah teks ini dengan deskripsi singkat tentang dirimu atau kutipan favoritmu.</p>
+                </div>
+            </div>
+
+            <!-- SLOT 5 -->
+            <div id="slot-5" class="card-slot bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&auto=format" alt="Placeholder 5" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Slot 05</span>
+                    <h3 class="text-xl font-semibold mt-2 mb-2">Nama Siswa 5</h3>
+                    <p class="text-gray-600 text-sm">Ubah teks ini dengan deskripsi singkat tentang dirimu atau kutipan favoritmu.</p>
+                </div>
+            </div>
+
+            <!-- SLOT 6 -->
+            <div id="slot-6" class="card-slot bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&auto=format" alt="Placeholder 6" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Slot 06</span>
+                    <h3 class="text-xl font-semibold mt-2 mb-2">Nama Siswa 6</h3>
+                    <p class="text-gray-600 text-sm">Ubah teks ini dengan deskripsi singkat tentang dirimu atau kutipan favoritmu.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Kelas Pemrograman - Praktik GitHub & Sourcetree</p>
+            <p class="text-sm mt-2">Dibuat untuk keperluan pendidikan dan ujian praktik.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
